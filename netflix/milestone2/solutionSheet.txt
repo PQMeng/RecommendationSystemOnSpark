@@ -1,0 +1,24 @@
+Problem2:
+
+(a) 
+# command line: spark-submit --master local[*] Desktop/netflix/milestone2/problem_a.py -input_path file:/home/cloudera/Desktop/netflix/netflix_subset/TestingRatings.txt
+
+distinct users: 27555; distinct movies: 1701
+
+(b) We randomly picked 10 users/items
+user-user: 
+take 10 users from test dataset, the estimated average overlap of items for users is 9475
+
+item-item:
+take 10 movies from test dataset, the estimated average overlap of users for items is 335 
+
+(c)
+We are going to use item-item and the reasons are as follows.
+efficiency: there are fewer movies than users, so the time complexity of the algorithm will be smaller.
+quality: from (b), we can find that item-item generates less overlapping. That's because items usually 
+    belong to a small set of 'genre' compared to user's various tastes. So we think item similarity is more meaningful than user similarity.
+
+(d) we decide to use normalization
+
+genre
+more users
