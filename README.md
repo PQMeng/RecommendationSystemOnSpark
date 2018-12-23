@@ -30,8 +30,7 @@ Following these steps, you will configure the clusters you need to build a recom
     >1). Go to https://console.aws.amazon.com/elasticmapreduce/ and click **"Create Cluster"**<br>
     2). You can name the cluster as you want.<br>
     3). Enable logging and select the directory you created earlier called logs.<br>
-    4). Under Software Configuration, select the latest version available and<br>
-    **Spark** to run a Spark application<br>
+    4). Under Software Configuration, select the latest version available and click **Spark** to run a Spark application<br>
     5). Use default Hardware Configuration values.<br>
     6). Under Security and Access select the EC2 Key Pair you created earlier.<br>
     7). Leave the rest of the values at their default selections. Press **"Create Cluster"**.<br>
