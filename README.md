@@ -14,7 +14,7 @@ These projects were both deployed on AWS Elastic MapReduce (EMR) to improve thei
 There is a READEME.md file in each filder above, explaining the deployment details and usage, respectively.
 
 ## AWS EMR Configuration
-Considering the latested movielens dataset containing 27,000,000 ratings and 1,100,000 tag applications applied to 58,000 movies by 280,000 users, It's hard to load all the data into the memory in a single personal computer, on longer the precessing and computations required by the algorithm. AWS allows us to do	some real	cloud computing using Amazon Elastic Map
+>Considering the latested movielens dataset containing 27,000,000 ratings and 1,100,000 tag applications applied to 58,000 movies by 280,000 users, It's hard to load all the data into the memory in a single personal computer, on longer the precessing and computations required by the algorithm. AWS allows us to do	some real	cloud computing using Amazon Elastic Map
 Reduce (EMR), which offers Hadoop hosted through Amazon Web Services.
 
 Following these steps, you will configure the clusters you need to build a recommendation system using Spark as stated in the above folders.
@@ -51,8 +51,11 @@ Following these steps, you will configure the clusters you need to build a recom
     **Note**: If you get an error message saying that the instance type is not available, create the cluster again using a different instance type (e.g. m4.large) under Hardware Confirguration. Now, you can choose to either submit a MR or Spark job.
 
 - step 5. **Preparing and Submitting a Spark job**
+
     1). From the EMR console https://console.aws.amazon.com/elasticmapreduce/, select your cluster and then select the **"Steps"** tab.
+    
     2). Select the blue button **"Add step"**
+    
     3). type key words like this and you will run the Spark job successfully.
     
 
