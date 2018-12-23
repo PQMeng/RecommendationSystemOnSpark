@@ -5,8 +5,8 @@
 
 This repo was for building scalable recommendation systems, currently containing:
 
-- item-item based collaborative filtering algorithms on [Netflix dataset](https://www.kaggle.com/netflix-inc/netflix-prize-data)
-- alternating least squares algorithms on Movielens dataset
+- item-item based collaborative filtering algorithms on [Netflix Prize dataset](https://www.kaggle.com/netflix-inc/netflix-prize-data)
+- alternating least squares algorithms on [Movielens dataset](https://grouplens.org/datasets/movielens/)
 
 These projects were both deployed on AWS Elastic MapReduce (EMR) to improve their scalability. Feedback and contribution are welcome.
 
