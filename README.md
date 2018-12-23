@@ -29,7 +29,7 @@ Following these steps, you will configure the clusters you need to build a recom
 
 - step 4. **Launch the Cluster**. 
 
-1). Go to https://console.aws.amazon.com/elasticmapreduce/ and click “Create Cluster”
+    1). Go to https://console.aws.amazon.com/elasticmapreduce/ and click “Create Cluster”
 
 2). You can name the cluster as you want.
 
