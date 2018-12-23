@@ -50,9 +50,10 @@ Following these steps, you will configure the clusters you need to build a recom
     8). It will take a few minutes for the cluster to be provisioned and eventually start.
     **Note**: If you get an error message saying that the instance type is not available, create the cluster again using a different instance type (e.g. m4.large) under Hardware Confirguration. Now, you can choose to either submit a MR or Spark job.
 
--step 5. Preparing and Submitting a Spark job
+- step 5. Preparing and Submitting a Spark job
     1). From the EMR console https://console.aws.amazon.com/elasticmapreduce/, select your cluster and then select the **"Steps"** tab. 
     2). Select the blue button **"Add step"**
+    
 
 
 ## Reference
