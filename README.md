@@ -10,6 +10,10 @@ This repo was for building scalable recommendation systems, currently containing
 
 These projects were both deployed on AWS Elastic MapReduce (EMR) to improve their scalability. Feedback and contribution are welcome.
 
+## Usage
+
+## AWS EMR Configuration
+
 ## Reference
 1. https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw
 2. https://sites.wustl.edu/neumann/courses/cse427s/fl18/
