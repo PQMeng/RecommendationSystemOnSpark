@@ -43,6 +43,11 @@ Following these steps, you will configure the clusters you need to build a recom
     2). Select the blue button **"Add step"**<br>
     3). type key words like this and you will run the Spark job successfully.
     
+    <p align="center">
+    <img width="600" alt="screen shot 2018-12-23 at 2 34 33 pm" src="https://user-images.githubusercontent.com/41766758/50387404-8799c580-06c0-11e9-8440-d640104661d4.png">
+    </p>
+
+    
 
 
 ## Reference
