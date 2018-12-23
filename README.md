@@ -12,3 +12,4 @@ These two projects were both deployed on AWS Elastic MapReduce (EMR) to improve 
 
 ## Reference
 1. https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw
+2. https://sites.wustl.edu/neumann/courses/cse427s/fl18/
