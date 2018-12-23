@@ -36,9 +36,12 @@ Following these steps, you will configure the clusters you need to build a recom
 3). Enable logging and select the directory you created earlier called logs.
 
 4). Under Software Configuration, select the latest version available and	
-.“Core	Hadoop”,	if	you	want	to	run	a	MapReduce,	Pig,	or	Hive	application.
+
+•“Core	Hadoop”,	if	you	want	to	run	a	MapReduce,	Pig,	or	Hive	application.
+
 • “Spark”,	if	you	want	to	run	a	Spark	application.
-5. Use	default	Hardware	Configuration values.
+
+5). Use	default	Hardware	Configuration values.
 6. Under	Security	and	Access select	the	EC2	Key	Pair	you	created	earlier.
 7. Leave	the	rest	of	the	values	at	their	default	selections. Press	“Create	Cluster”.
 8. It	will	take	a	few	minutes	for	the	cluster	to	be	provisioned	and	eventually	start.
