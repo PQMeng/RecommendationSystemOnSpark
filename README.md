@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-hi
-=======
-# RecommendationSystem
-input: (movie-id, user-id, rating) tuples
-output: ((movie-id, movie-id), similarity) pairs
+# Scalable recommendation systems based on Spark
 
-# Check how to run the model on src/run.txt
+[![Binder](https://img.shields.io/badge/launch-Jupyter-blue.svg)](https://mybinder.org/v2/gh/GokuMohandas/practicalAI/master)
+[![Binder](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/PQMeng/RecommendationSystemOnSpark/blob/master/LICENSE)
 
-# Algorithms
-## 1 preprocessing mapreduce job:
-normalization
+This repo was for building scalable recommendation systems, currently containing:
 
-## 2 MapReduce Jobs
-## job1: for every user, find pairs of movies that have been both rated (overlap) --> movie co-occurrence
+- item-item based collaborative filtering algorithms on Netflix dataset
+- alternating least squares algorithms on Movielens dataset
 
-## job2: for every pair of movies aggregate statistics across all users --> movie similarity
+These projects were both deployed on AWS Elastic MapReduce (EMR) to improve their scalability. Feedback and contribution are welcome.
 
+## Usage
 
+## AWS EMR Configuration
 
->>>>>>> c59ce8d6ad30ca56e0907a96edb8e514a3a8f64c
+## Reference
+1. https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw
+2. https://sites.wustl.edu/neumann/courses/cse427s/fl18/
